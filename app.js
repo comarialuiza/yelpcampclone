@@ -20,7 +20,7 @@ mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 
-mongoose.connect('mongodb://localhost/yelp_camp_v12');
+mongoose.connect('mongodb+srv://peachesbonbon:B1u9c9K7yb4rN35P4h45@cluster0-gdinf.mongodb.net/test');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
